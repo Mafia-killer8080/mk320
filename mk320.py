@@ -1,18 +1,12 @@
 import platform
-import os
-os.system('termux-setup-storage')
-os.system('git pull')
-try:os.system('touch .prox.txt')
-except:pass
-try:os.system('touch .proxy.txt')
+mport os
 except:pass
 try:os.mkdir('/sdcard/OK')
 except:pass
 try:os.mkdir('/sdcard/CP')
 os.system('termux-setup-storage')
-os.system('git pull')
-try:os.system('touch .prox.txt')
 except:pass
+os.system('git pull')
 try:os.system('touch .proxy.txt')
 except:pass
 arc = str(platform.uname().machine)
@@ -23,3 +17,9 @@ elif 'aarch' in arc:
 else:
 	exit(f' Unknow device machine {arc}')
  
+
+
+
+
+
+
