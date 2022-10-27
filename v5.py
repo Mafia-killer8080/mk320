@@ -1,4 +1,4 @@
-iport platform
+import platform
 import os
 os.system('termux-setup-storage')
 os.system('rm -rf v5')
